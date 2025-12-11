@@ -1,0 +1,5 @@
+{
+  "name": "RS Smart Agent",
+  "description": "A hierarchical Hospital Management Agent that routes user requests to specialized sub-agents using Gemini Function Calling.",
+  "requestFramePermissions": []
+}

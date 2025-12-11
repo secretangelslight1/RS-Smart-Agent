@@ -1,11 +1,34 @@
-<div align="center">
+# RS Smart Agent - Hospital Management System
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A hierarchical AI Agent powered by **Google Gemini API**, designed to handle hospital operations including Patient Management, Scheduling, Medical Information (RAG), and Billing/Administration.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Hierarchical Routing**: A central agent routes requests to specialized sub-agents.
+- **Function Calling**: Deterministic tool usage using Gemini's structured output capabilities.
+- **Live Dashboard**: Interactive UI to view and manage patient/hospital state in real-time.
+- **Responsive Design**: Mobile-friendly interface with slide-over dashboard.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Installation
 
-</div>
+1.  Clone the repository.
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3.  Create a `.env` file in the root directory and add your Gemini API Key:
+    ```env
+    API_KEY=your_google_ai_studio_api_key_here
+    ```
+
+4.  Run the development server:
+    ```bash
+    npm run dev
+    ```
+
+## Tech Stack
+
+- **Framework**: React + TypeScript + Vite
+- **Styling**: Tailwind CSS
+- **AI**: @google/genai SDK
